@@ -19,6 +19,6 @@ public class EvenOrOdd {
             return "Even";
         } else {
             return "Odd";
-        };
+        }
     }
 }
