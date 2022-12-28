@@ -25,9 +25,14 @@ public class ReturnArrayContents {
      * coding challenges.
      *
      * @param nums the array to be manipulated.
-     * @return a string representation of all values of nums, with the values separated by spaces.
+     * @return 
      */
     public String arrayToString(int[] nums){
-        return "";
+        
+        for (int i = 0; i < nums.length; i++){
+            
+        }
+
+        return arrayToString(nums) + " ";
     }
 }
