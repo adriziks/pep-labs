@@ -28,11 +28,15 @@ public class ReturnArrayContents {
      * @return 
      */
     public String arrayToString(int[] nums){
+
+        String str = "";
         
         for (int i = 0; i < nums.length; i++){
-            
+            str = str + nums[i] + " ";
         }
 
-        return arrayToString(nums) + " ";
+        return str;
     }
 }
+
+
